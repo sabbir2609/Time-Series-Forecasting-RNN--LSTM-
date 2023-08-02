@@ -14,6 +14,12 @@ The three gates are:
 
 LSTM cells can learn to selectively remember or forget information based on the input data, which makes them well-suited for tasks such as language modeling, speech recognition, and machine translation.
 
+## RNN LSTM Diagram
+
+![RNN LSTM Diagram](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/RNN-unrolled.png)
+
+This diagram shows the unrolled structure of an LSTM cell in an RNN. The input at each time step is fed into the LSTM cell, which updates its hidden state and cell state. The hidden state is then passed to the next time step, and so on. The three gates (forget, input, and output) control the flow of information into and out of the cell state.
+
 ## Getting Started
 
 To get started with this project, clone the repository and install the required dependencies. You can then train and evaluate an LSTM model on your own dataset.
